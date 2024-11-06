@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Drive Zoom",
+    "description": "Preserve Docs, Sheets, and Slides zoom levels between sessions",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "https://docs.google.com/*"
+            ]
+        }
+    ]
+}
